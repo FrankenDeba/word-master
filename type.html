@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    body{
+        background: linear-gradient(to right,#30336B,#487EB0);
+    }
+    #gameboard{
+        position: absolute;
+        top: 200px;
+        left: 500px;
+        width:30%;
+        height: 50%;
+        color: white;
+        background-color: #2F363F;
+        border: 2px groove navy;
+        border-radius: 5px;
+        box-shadow: 3px 3px 3px black;
+        padding: 15px;
+    }
+    #para{
+    position: relative;
+    top:0px;
+    width: 50%;
+    text-align: center;
+    color: black;
+    background-color: wheat;
+    }
+    #scoreboard{
+        position: relative; 
+        top: 0px;
+        left:350px;
+    }
+    #score{
+    position: relative;
+    top: 0px;
+    left: 350px;
+    }</style>
+    
+</head>
+<body>
+    
+    <div id = "gameboard">
+        word you have to type: <div id ="para"></div>
+        <div id ="scoreboard">score:</div>
+        <div id = "score">0</div>
+    
+        Time remaining: <div id="timer"></div>
+    
+    
+    Enter text: <input type="text" id = "inp">
+    
+        <br>result: <div id = "result"></div>
+        <script src = "matchword.js"></script>
+    
+    
+    
+    </div>
+
+
+    
+</body>
+</html>
